@@ -1,0 +1,119 @@
+.shopping-cart-mini { 
+  padding: 10px;
+  width: 300px;
+  border: solid;
+  border-color: rgba(0, 0, 0, 0.295);
+  box-shadow: 5px 8px 10px 2px rgba(0, 0, 0, 0.123);
+  border-width: 1px;
+  border-top: 0;
+  border-radius: 0px 0px 20px 20px;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.lds-ring {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+.lds-ring div {
+  box-sizing: border-box;
+  display: block;
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border: 8px solid #cef;
+  border-radius: 50%;
+  animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  border-color: rgb(187, 255, 232) transparent transparent transparent;
+}
+.lds-ring div:nth-child(1) {
+  animation-delay: -0.45s;
+}
+.lds-ring div:nth-child(2) {
+  animation-delay: -0.3s;
+}
+.lds-ring div:nth-child(3) {
+  animation-delay: -0.15s;
+}
+@keyframes lds-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.loader-block {
+  text-align: center;
+}
+
+.button {
+  border-radius: 13px;
+  font-size: 15px;
+  color: white;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+  width: 100%;
+  background-color: #6F2232;
+  font-family: "Lucida Sans Unicode";
+  font-weight: bold;
+}
+
+.button-remove{
+  background-color: #E7717D;
+  border-radius: 13px;
+  font-size: 15px;
+  color: white;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+  width: 100%;
+  font-family: "Lucida Sans Unicode";
+  font-weight: bold;
+}
+
+.btn {
+  margin-top: 10px;
+  border-radius: 15px;
+  font-size: 15px;
+  color: white;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+  width: 40%;
+  background-color: #5D001E;
+  font-family: "Lucida Sans Unicode";
+  font-weight: bold;
+}
+
+.searchbar {
+  height: 40px;
+  max-width: 390px;
+  padding: 10px;
+  border-color: #E7717D;
+  border-style: double;
+  font-size: 18px;
+  border-radius: 25px;
+  outline-color: #E7717D;
+}
+
+.assortment {
+  color: #5D001E;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  font-family: "Lucida Sans Unicode";
+}
+
+.container-text {
+  padding: 30px;
+  background-color: #E3E2DF;
+  font-family: "Lucida Sans Unicode";
+  text-align: left;
+}

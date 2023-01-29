@@ -1,0 +1,74 @@
+.App {
+  text-align: center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+}
+
+a:link, a:visited, a:focus {
+  color: #1A1A1D;
+}
+
+a:hover {
+  color: #C3073F;
+}
+a:active {
+  color: #E7717D;
+}
+
+.card {
+  max-width: 330px;
+  margin: auto;
+  padding: 50px;
+  margin-top: 30px;
+}
+
+.image{
+  border-radius: 15px;
+}
+
+.block-level {
+  border: solid #BBBBBB 1px;
+  width: 250px;
+  height: 330px;
+  margin: 15px;
+  padding: 10px;
+  /*position:relative;*/
+  /*float: left;*/
+  /*text-align: center;*/
+}
+
+.theme{
+  background-color: #E3E2DF;
+  color: #5D001E;
+  font-weight: bold;
+  font-family: "Lucida Sans Unicode";
+  text-align: left;
+}
+
+.img{
+  text-align: center;
+}
+
+.price{
+  text-align: right;
+}

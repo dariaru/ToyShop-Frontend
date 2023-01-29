@@ -1,0 +1,9 @@
+.dropdown-menu__item {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.dropdown-menu__name {
+  max-width: fit-content;
+  min-width: 150px;  
+}

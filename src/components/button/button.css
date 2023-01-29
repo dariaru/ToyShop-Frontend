@@ -1,0 +1,36 @@
+.btn {
+    border-radius: 15px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: fit-content;
+    background-color: #E7717D;
+}
+
+.btn--primary {
+    margin: 1px;
+}
+
+.btn--secondary {
+    background-color: rgb(80, 82, 84);
+}
+
+.btn--small {
+    font-size: 15px;
+}
+
+.btn--medium {
+}
+
+.button-width{
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-family: "Lucida Sans Unicode";
+    border-radius: 15px;
+}
+
+.manager-buttons{
+    width: 100%;
+    text-align: right;
+}

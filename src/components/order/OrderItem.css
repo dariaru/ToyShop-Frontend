@@ -1,0 +1,43 @@
+.order-item__container {
+  min-width: fit-content;
+  max-width: 600px;
+  margin: 10px;
+  padding: 20px;
+  border: solid;
+  border-width: 1px;
+  border-color: rgb(214, 214, 214);
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  
+  box-shadow: 10px 5px 5px rgb(207, 207, 207);
+  
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.order-item__name {
+  width: 150px;
+  word-wrap: break-word;
+  font-size: large;
+  font-weight: bold;
+}
+
+.order-item__price {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 30px;
+}
+
+.order-item__image { 
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.order-item__control {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  font-weight: bold;
+}
